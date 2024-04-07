@@ -1,1 +1,1 @@
-# Data_Assim_Lorenz_System
+This Matlab script was produced as a part of my PhD research. It applies variational data assimilation to the 3 DOF chaotic Lorenz system. The mathematical formulation relies on using the Newton Raphson method to solve the first order optimality conditions. A discretisation method using state transition theory is adopted and a block diagonal pre-conditioner is used to accelerate the convergence. In the script it is assumed that the variables 'y' and 'z' are assumed known and computed by integration using ode45, while the variable 'x' is unknown.
